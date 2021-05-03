@@ -1,10 +1,12 @@
 package practice1;
 
+import static java.lang.Integer.parseInt;
+
 public class Part2 {
-    public static void main(int[] args) {
+    public static void main(String[] args) {
         int sum = 0;
-            for ( int x : args ) {
-                sum += x;
+            for ( String x : args ) {
+                sum += parseInt(x);
             }
             System.out.println(sum);
     }

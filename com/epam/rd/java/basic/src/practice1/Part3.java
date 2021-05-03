@@ -1,8 +1,9 @@
 package practice1;
 
+import java.util.Arrays;
+
 public class Part3 {
     public static void main(String[] args) {
-        for (String arg: args) System.out.print(" " + arg);
-            System.out.println();
+            System.out.println(Arrays.toString(args));
     }
 }

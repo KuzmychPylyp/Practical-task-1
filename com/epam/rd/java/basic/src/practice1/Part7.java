@@ -2,16 +2,7 @@ package practice1;
 
 public class Part7 {
     public static void main(String[] args) {
-        System.out.println(int2str(1));
-        System.out.println( int2str(2));
-        System.out.println(int2str(26));
-        System.out.println(str2int("AA"));
-        System.out.println(str2int("AZ"));
-        System.out.println(str2int("BA"));
-
-        System.out.println(rightColumn("A"));
-        System.out.println(rightColumn("B"));
-        System.out.println(rightColumn("Z"));
+      
     }
     public static String int2str(int number)
     {
